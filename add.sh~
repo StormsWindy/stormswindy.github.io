@@ -1,0 +1,8 @@
+#!/bin/zsh
+git add --all
+
+read -p 'Name of commit:' commitname
+
+git commit -m $commitname
+git push -u origin main
+
