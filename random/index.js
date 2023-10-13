@@ -1,0 +1,3 @@
+function switchtype() {
+    document.getElementById("")
+}
