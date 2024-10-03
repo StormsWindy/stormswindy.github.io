@@ -11,6 +11,7 @@ function draw() {
 
 function start() {
 	setInterval(draw, 10);
+	console.log("i");
 }
 
 document.getElementById("runButton").addEventListener("click", function() {
