@@ -15,6 +15,7 @@ function start() {
 
 document.getElementById("runButton").addEventListener("click", function() {
 	start();
+	console.log("r");
 	this.disabled = true;
 });
 
