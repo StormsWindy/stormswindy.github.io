@@ -6,5 +6,15 @@ function draw() {
     ctx.rect(20, 40, 50, 50);
     ctx.fillStyle = "#FF0000";
     ctx.fill();
-    ctx.closePath();    
+    ctx.closePath();
 }
+
+function start() {
+	setInterval(draw, 10);
+}
+
+document.getElementById("runButton").addEventListener("click", function() {
+	start();
+	this.disabled = true;
+});
+
