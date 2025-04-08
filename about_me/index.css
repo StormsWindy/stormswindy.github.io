@@ -1,0 +1,30 @@
+body {
+    background-color:black;
+    
+}
+
+img {
+    width: 40%;
+}
+
+div.main {
+    width: 800px;
+    margin:auto;
+    border: 5px ridge darkslategrey;
+    background-color: rgb(21, 35, 35);
+    color:greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
+}
+
+p {
+    border: 2px solid rgb(15, 25, 25);
+    border-radius: 5px;
+    background-color: rgb(15, 25, 25);
+    width:780px;
+    margin:auto;
+
+}
+a {
+    color:deepskyblue;
+}
